@@ -1,0 +1,74 @@
+\section*{Beschreibung des Themas}
+Reinforcement Learning (RL) ist ein Teilgebiet des Machine Learning, das sich mit der Erstellung von Agenten beschäftigt, die Entscheidungen treffen, um den Gesamtgewinn zu maximieren. 
+Aufgrund des sequentiellen Aufbaus und der Reproduzierbarkeit von (Strategie-)Spielen, bieten diese eine gute Anwendung zur Auswertung von RL Algorithmen. 
+In der Bachelorarbeit sollen die RL Algorithmen SARSA und Q-Learning verglichen und deren Unterschiede verdeutlicht werden. 
+Ferner soll deren Spielst"arke, Spielverhalten sowie Performance am Beispiel des simplen Strategiespiels Tic-Tac-Toe evaluiert werden. 
+
+\section*{Forschungsfrage}
+Das Ziel der Arbeit ist eine Erarbeitung der Algorithmen SARSA und Q-Learning sowie deren Unterschiede. 
+Am Beispiel des simplen Strategiespiels Tic-Tac-Toe sollen Spielst"arke, Spielverhalten und Performance von SARSA und Q-Learning evaluiert werden. 
+Im Zuge dessen sollen die folgenden weiteren Fragestellungen beantwortet werden:
+\begin{itemize}
+    \item Wie viele Trainingsepisoden sind jeweils notwendig, um das Spiel durch Self-Play zu erlernen?
+    \item Welche Effekte haben Ver"anderungen der Hyperparameter, insbesondere der Reward, auf das Training und die St"arke bzw. das Spielverhalten der Agenten?
+    \item Welche Metriken können zur Bewertung der Performance genutzt werden?
+\end{itemize}
+
+\section*{Methodik und Vorgehen}
+Zur Beantwortung der Fragestellung werden die Algorithmen SARSA und Q-Learning erläutert und deren Unterschiede anhand von Beispielen verdeutlicht. 
+Anschließend sollen beide Algorithmen in Java implementiert werden mit dem Ziel eine ideale Spielstrategie für Tic-Tac-Toe zu ermitteln. 
+Die Agenten sollen das Spiel durch Self-Play erlernen, \dahe der Agent spielt nicht gegen andere Agenten, sondern nur sich selbst und bekommt kein externes Know-How bereitgestellt.
+Zur Evaluation der trainierten Agenten werden Testspiele gegen einen perfekt spielenden MiniMax-Agenten durchgeführt. 
+Für jeden Algorithmus sollen verschiedene Kombinationen von Hyperparametern getestet und deren Auswirkungen auf die Spielst"arke und Performance  untereinander verglichen werden. 
+
+\pagebreak
+\section*{Vorl"aufige Gliederung}
+\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}}
+\renewcommand{\labelenumiii}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}}
+\begin{enumerate}
+    \item Einleitung
+        \begin{enumerate}
+        \item Motivation
+        \item Ziele und Forschungsfrage
+        \item Aufbau der Arbeit
+        \end{enumerate}
+    \item Grundlagen
+        \begin{enumerate}
+        \item Reinforcement Learning
+            \begin{enumerate}
+            \item Begriffserkl"arung und Verortung
+            \item Markov Decision Process
+            \item Dynamic Programming
+            \item Temporal Difference Learning
+            \item Exploitation vs Exploration
+            \end{enumerate}
+        \item Q-Learning
+        \item SARSA      
+        \item MiniMax-Algorithmus
+        \item Tic-Tac-Toe
+            \begin{enumerate}
+            \item Spielerkl"arung
+            \item Anwendbare Reinforcement Learning Algorithmen
+            \end{enumerate}
+        \end{enumerate}
+    \item Methodik und Funktionsweise der Algorithmen
+        \begin{enumerate}
+        \item Spielfeld
+        \item Agent Q-Learning
+        \item Agent SARSA
+        \item Trainingsaufbau und Evaluationsmetriken
+        \end{enumerate}
+    \item Implementierung
+    \item Diskussion und Auswertung der Ergebnisse
+        \begin{enumerate}
+        \item Auswertung des Q-Learning Agenten
+        \item Auswertung des SARSA Agenten
+        \end{enumerate}
+    \item Konklusion
+        \begin{enumerate}
+        \item Beantwortung der Forschungsfragen
+        \item Kritische Betrachtung der Inhalte
+        \item Anmerkungen f"ur k"unftige Arbeiten
+        \end{enumerate}   
+\end{enumerate}
+
