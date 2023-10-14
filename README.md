@@ -4,7 +4,7 @@ Dieses Repository enthält das Exposé meiner Bachelorarbeit zu meinem Studium a
 
 **Evaluation der Reinforcement Learning Algorithmen Sarsa und Q-Learning am Beispiel eines Strategiespiels**
 
-Die fertige Exposé als PDF kann [hier](https://github.com/JonasBingel/ThesisHSMZ-RLTicTacToe-Expose/blob/main/Bingel_Jonas_Bachelorarbeit_Expose.pdf) eingesehen werden.
+Das fertige Exposé als PDF kann [hier](https://github.com/JonasBingel/ThesisHSMZ-RLTicTacToe-Expose/blob/main/Bingel_Jonas_Bachelorarbeit_Expose.pdf) eingesehen werden.
 
 ## Zweck dieses Repositories
 Dieses Repository dient drei Zielen:
